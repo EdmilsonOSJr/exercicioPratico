@@ -206,7 +206,7 @@ int notaParticipante(wxString linha, wxString delimitador)
 // Abre arquivo para ter acesso as notas de score SUS.
 void manipulaArquivo(int *valorDoTeste)
 {
-    wxFileInputStream entrada(wxT("arq\\teste.csv"));// abre o auquivo .csv do score SUS.
+    wxFileInputStream entrada(wxT("arq\\avaliacao2.csv"));// abre o auquivo .csv do score SUS.
 
     wxTextInputStream  text( entrada, wxT("\x09"),wxConvUTF8);
 
